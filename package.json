@@ -4,5 +4,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Yoichi Kobayashi"
+  "author": "Yoichi Kobayashi",
+  "devDependencies": {
+    "turbo": "^1.13.2"
+  }
 }
