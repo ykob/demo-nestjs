@@ -2,7 +2,13 @@
   "name": "db",
   "version": "0.0.0",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "generate": "prisma generate",
+    "migrate": "prisma migrate dev --name init",
+    "seed": "ts-node ./seed.ts",
+    "gui": "prisma studio"
   },
-  "author": "Yoichi Kobayashi"
+  "author": "Yoichi Kobayashi",
+  "dependencies": {
+    "prisma": "^5.12.1"
+  }
 }
