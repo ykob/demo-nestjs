@@ -9,6 +9,7 @@
   },
   "author": "Yoichi Kobayashi",
   "dependencies": {
+    "@prisma/client": "5.12.1",
     "prisma": "^5.12.1"
   }
 }
