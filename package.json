@@ -2,7 +2,14 @@
   "name": "demo-nestjs",
   "version": "0.0.0",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "api": "pnpm -F \"api\"",
+    "db": "pnpm -F \"db\"",
+    "web": "pnpm -F \"web\"",
+    "generate": "turbo generate",
+    "dev": "turbo dev",
+    "build": "turbo build",
+    "lint": "turbo lint",
+    "format": "turbo format"
   },
   "author": "Yoichi Kobayashi",
   "devDependencies": {
