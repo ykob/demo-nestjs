@@ -5,6 +5,7 @@
     "generate": "prisma generate",
     "migrate": "prisma migrate dev --name init",
     "seed": "ts-node ./seed.ts",
+    "format": "prettier . --write --cache",
     "gui": "prisma studio"
   },
   "author": "Yoichi Kobayashi",
