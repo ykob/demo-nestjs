@@ -88,15 +88,6 @@ importers:
         specifier: ^5.2.2
         version: 5.2.2
 
-  apps/db:
-    dependencies:
-      '@prisma/client':
-        specifier: 5.12.1
-        version: 5.12.1(prisma@5.12.1)
-      prisma:
-        specifier: ^5.12.1
-        version: 5.12.1
-
   apps/web:
     dependencies:
       react:
@@ -133,6 +124,15 @@ importers:
       vite:
         specifier: ^5.2.0
         version: 5.2.10(@types/node@20.12.7)(lightningcss@1.23.0)(terser@5.30.3)
+
+  packages/db:
+    dependencies:
+      '@prisma/client':
+        specifier: 5.12.1
+        version: 5.12.1(prisma@5.12.1)
+      prisma:
+        specifier: ^5.12.1
+        version: 5.12.1
 
   packages/eslint-config-custom:
     devDependencies:
