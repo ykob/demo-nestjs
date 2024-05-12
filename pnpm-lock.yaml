@@ -23,6 +23,9 @@ importers:
       '@nestjs/platform-express':
         specifier: ^10.0.0
         version: 10.3.8(@nestjs/common@10.3.8(reflect-metadata@0.2.2)(rxjs@7.8.1))(@nestjs/core@10.3.8)
+      db:
+        specifier: workspace:*
+        version: link:../../packages/db
       reflect-metadata:
         specifier: ^0.2.0
         version: 0.2.2
@@ -51,9 +54,6 @@ importers:
       '@types/supertest':
         specifier: ^6.0.0
         version: 6.0.2
-      db:
-        specifier: workspace:*
-        version: link:../../packages/db
       eslint:
         specifier: ^8.42.0
         version: 8.57.0
