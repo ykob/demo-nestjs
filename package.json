@@ -13,6 +13,6 @@
   },
   "author": "Yoichi Kobayashi",
   "devDependencies": {
-    "turbo": "^1.13.2"
+    "turbo": "^2.0.4"
   }
 }
